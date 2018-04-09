@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  display: inline-block;
+}
+
+a:link, a:visited{
+  color: black;
+  text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+
+ul {
+  display:inline-block;
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+  padding-right: 20px;
+}
+/*Header*/
+
+.topcontainer {
+  position: absolute;
+  top: 0;
+  left:0px;
+  right:0px;
+  height: 120px;
+  width: 100%;
+  background-color: #F2F2F2
+}
+
+.logo {
+  margin-top: 27px;
+}
+
+#logo {
+  height: 40px;
+  width: auto;
+  margin-left: 15px;
+}
+
+.searchbartop {
+  position: absolute;
+  top: 28px;
+  left: 165px;
+}
+
+#searchbar {
+  width: 600px;
+  height:27px;
+}
+
+.navbar {
+  position:absolute;
+  width: 100%;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: .60;
+  left: 150px;
+}
+.safesearch {
+  position: absolute;
+  right: 15px;
+  bottom: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: .60;
+}
+
+button {
+  position:absolute;
+  top:29px;
+  right:15px;
+  display:inline-block;
+  font-size: 12px;
+  font-weight: bold;
+  color:white;
+  background-color: #4285f4;
+  border-radius: 4px;
+  padding: 7px 11px;
+  border: 1px solid #f2f2f2;
+}
+.appgrid {
+  position:absolute;
+  top:30px;
+  right:95px;
+}
+
+#grid {
+  height: 19px;
+  width: 19px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  display:inline-block;
+}
+
+/*Body*/
+.bodycontainer {
+  position: relative;
+  height:800
+  top:150px;
+  background-color: red;
+}
+
+.resultscount{
+  position: relative;
+  background-color: blue;
+}
+.topresult {
+  position: relative;
+  background-color: green;
+}
+.aboutresult {
+  position: relative;
+  background-color: purple;
+}
+.searchresults {
+  position:relative;
+  background-color: black;
+}
+
+/*Footer*/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 25px;
+  width:100%;
+  background-color: #F2F2F2;
+  padding:0px 0px 15px 0px;
+  left:0;
+}
+
+.bottom-right{
+  float: right;
+  padding-right: 0px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  opacity: .60;
+
+}
+.bottom-left{
+  float: left;
+  padding-left: 15px;
+  opacity: .60;
+}
