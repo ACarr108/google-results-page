@@ -5,6 +5,7 @@
 
 body {
   font-family: Arial, sans-serif;
+  height: 100%;
 }
 
 a {
@@ -37,7 +38,9 @@ li {
   right:0px;
   height: 120px;
   width: 100%;
-  background-color: #F2F2F2
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-bottom-color: #F2F2F2;
 }
 
 .logo {
@@ -63,11 +66,10 @@ li {
 
 .navbar {
   position:absolute;
-  width: 100%;
   font-size: 14px;
   font-weight: 400;
   opacity: .60;
-  left: 150px;
+  left: 200px;
 }
 .safesearch {
   position: absolute;
@@ -108,52 +110,88 @@ button {
 }
 
 /*Body*/
+
 .bodycontainer {
   position: relative;
-  height:800
-  top:150px;
-  background-color: red;
+  top:100px;
+
 }
 
 .resultscount{
   position: relative;
-  background-color: blue;
+  top: 30px;
+  padding-left: 200px;
+  font-size: 12px;
+  opacity: .70;
 }
-.topresult {
-  position: relative;
-  background-color: green;
-}
-.aboutresult {
-  position: relative;
-  background-color: purple;
-}
+
 .searchresults {
   position:relative;
-  background-color: black;
+  top: 50px;
+  width:650px;
+  left: 150px;
+}
+
+.searchresults a {
+  color: darkblue;
+  font-size: 18px;
+}
+
+cite {
+  color: green;
+  font-size: 15px;
+}
+
+ .searchresults p {
+   font-size: 14px;
+   margin-bottom: 15px ;
+   opacity: .80;
+ }
+
+ h3 {
+   margin-top: 30px;
+   font-weight: 400;
+   font-size: 18px;
+ }
+
+#leftlist {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: darkblue;
+  font-weight: bold;
+  line-height: 25px;
+}
+#rightlist {
+  font-weight: bold;
+  color: darkblue;
+  line-height: 25px;
+}
+#leftlist li a {
+  font-size: 14px;
+}
+
+#rightlist li a {
+  font-size: 14px;
 }
 
 /*Footer*/
 
-footer {
-  position: absolute;
-  bottom: 0;
-  height: 25px;
-  width:100%;
-  background-color: #F2F2F2;
-  padding:0px 0px 15px 0px;
-  left:0;
+.footer {
+  position: relative;
+  margin-top: 150px;
+  padding-top:15px;
+  padding-bottom:15px;
+  width: 100%;
+  background-color: #F2F2F2
 }
 
 .bottom-right{
   float: right;
-  padding-right: 0px;
-  margin-bottom: 0;
-  padding-bottom: 0;
+  padding-right: 30px;
   opacity: .60;
 
 }
 .bottom-left{
-  float: left;
-  padding-left: 15px;
+  padding-left: 30px;
   opacity: .60;
 }
